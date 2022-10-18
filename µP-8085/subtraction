@@ -1,0 +1,17 @@
+
+;<Read two numbers from memory>
+;<Write out the result to IO>
+
+	jmp start
+
+;data
+
+
+;code
+start: 	LXI H, 03E7H
+	MOV A,M
+	LXI H, 03E6H
+	MOV B,M
+	SUB B
+	OUT 00H
+	hlt

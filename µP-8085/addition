@@ -1,0 +1,19 @@
+
+;<Read two numbers from memory>
+;<Perform addition and store in memory>
+;<Write out to IO>
+
+	jmp start
+
+;data
+
+
+;code
+start: 	LXI H, 03E7H
+	MOV A,M
+	LXI H, 03E6H
+	MOV B,M
+	ADD B
+	STA 03E5H
+	OUT 00H
+	hlt
