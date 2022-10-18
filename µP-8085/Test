@@ -1,6 +1,0 @@
-
-;<Test program>
-
-_main:	IN 00H
-	STA 000BH
-	HLT
