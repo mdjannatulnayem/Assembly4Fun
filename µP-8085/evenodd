@@ -1,5 +1,6 @@
 
-;<Program title>
+;<Determine if even number or odd>
+;<Writeout 1 if even or 0 if odd number>
 
 	jmp start
 
