@@ -9,11 +9,17 @@
 
 
 ;code
-start: 	LXI H, 03E7H
-	MOV A,M
+start: 	MVI C, 00H
+	LXI H, 03E7H
+	MOV A, M
 	LXI H, 03E6H
-	MOV B,M
+	MOV B, M
 	ADD B
-	STA 03E5H
+	JNC store
+	INR C
+store:	STA 03E5H
 	OUT 00H
-	hlt
+	MOV A, C
+	STA 03E4H
+	OUT 01H
+	HLT
