@@ -1,0 +1,26 @@
+>> 8085 programming
+
+1. Program to read data from I/O.
+2. Program to write data to I/O.
+3. Program to write data to memory.
+4. Program to read data from memory.
+5. Program to add two numbers from memory and store the result in memory and write out to the I/O.
+6. Program to multiply two numbers from memory and store the result in memory.
+7. Program to subtract two numbers from memory and write out the result to the I/O.
+8. Program to divide two numbers taking input from I/O and store the result in memory.
+9. Program to find the 2’s complement of a number stored in a particular memory and write out the result to I/O.
+10. Program to find the factorial value of a number stored in memory.
+11. Program to left shift a number stored in memory a number of times read from I/O.
+12. Program to determine even and odd numbers.
+13. Program to determine prime numbers.
+14. Program to store N number of elements in consecutive memory locations read from I/O and write out the starting address to I/O.
+15. Program to find the largest element from an array.
+16. Program to sort an array of elements in ascending order.
+17. Program to add two numbers using subroutine.
+18. Program to find the square root of a number using subroutine.
+19. Program to write out a message to the I/O.
+
++
++
++ ....more coming 👊
+
