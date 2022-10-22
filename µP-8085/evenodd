@@ -1,5 +1,5 @@
 
-;<Writeout 1 if even or 0 to IO>
+;<Write out 1 if even or 0 to IO>
 
 	jmp start
 
