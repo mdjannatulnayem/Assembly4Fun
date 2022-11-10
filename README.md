@@ -1,2 +1,1 @@
-// Assembly4Fun
-/* Trying out some assembly */
+; Trying out some assembly
