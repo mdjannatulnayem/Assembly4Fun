@@ -1,0 +1,16 @@
+
+.data
+; 32 bit integer
+myByte dword 12734324
+; single precision float
+myFloat real4 3.1416
+
+.code
+someFunction proc
+	; load effective address
+	lea rax, myByte
+	mov dword ptr [rax], 127
+	movss xmm0, myFloat
+	ret
+someFunction endp
+end
